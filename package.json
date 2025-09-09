@@ -1,16 +1,31 @@
 {
   "name": "extract-http-folder-links",
   "module": "index.ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "bin": {
     "extfl": "npx tsx index.ts"
   },
-  "private": true,
+  "private": false,
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "keywords": [
+    "http",
+    "folder",
+    "links",
+    "extract",
+    "fetch",
+    "m3u8",
+    "playlist",
+    "real-debrid",
+    "torrent",
+    "download"
+  ],
+  "publishConfig": {
+    "access": "public"
   }
 }
