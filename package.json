@@ -1,8 +1,13 @@
 {
   "name": "extract-http-folder-links",
   "module": "index.ts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
+  "author": {
+    "email": "hi@b68.dev",
+    "name": "Jyotirmoy <BRAVO68WEB> Bandyopadhayaya",
+    "url": "https://b68.dev"
+  },
   "bin": {
     "extfl": "npx tsx index.ts"
   },
@@ -27,5 +32,10 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BRAVO68WEB/extract-http-folder-links.git"
   }
 }
