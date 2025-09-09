@@ -1,0 +1,15 @@
+{
+  "name": "extract-http-folder-links",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "extfl": "npx tsx index.ts"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
